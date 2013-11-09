@@ -1,5 +1,3 @@
-module Life
-  class Life
+class Life
 
-  end
 end
