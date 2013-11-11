@@ -19,12 +19,11 @@ describe Life::World do
       world.state.should == [
         [0,0,0],
         [1,1,1],
-        [0,0,0]
+        [0,0,0],
       ]
     end
 
-    it "blinks" do
-      pending "todo"
+    it "blinks in a tick" do
       world.tick.state.should == [
         [0,1,0],
         [0,1,0],
